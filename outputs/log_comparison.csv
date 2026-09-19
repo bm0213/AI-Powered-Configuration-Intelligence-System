@@ -1,0 +1,7 @@
+log_feature,pass_value,fail_value,fail_to_pass_ratio
+error_count,0.305,2.772,9.08
+warning_count,1.562,3.089,1.98
+timeout_occurred,3.022,12.548,4.15
+memory_error_occurred,2.059,16.55,8.04
+scheduler_error_occurred,1.9,19.088,10.04
+retry_attempts_logged,0.674,3.293,4.88

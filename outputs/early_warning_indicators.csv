@@ -1,0 +1,7 @@
+indicator,n_runs_matching,failure_rate_when_present_pct,baseline_failure_rate_pct,risk_ratio,pct_of_all_failures_explained
+host_temperature_c > 65 (overheating),987,47.8,15.0,3.18,5.7
+seed_group == 8,5564,42.5,15.0,2.83,28.6
+"host_temperature_c > 55 (warming -- earlier warning, before full overheat)",6148,35.4,15.0,2.35,26.3
+memory_alloc_mb <= 1024 AND thread_pool_size >= 16,8760,28.1,15.0,1.87,29.7
+timeout_ms <= 100 under high cpu_load_pct (>70),2746,21.6,15.0,1.43,7.2
+feature_flag_7 enabled,19255,21.1,15.0,1.4,49.1

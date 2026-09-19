@@ -1,0 +1,5 @@
+condition,failures_matching,total_failures,pct_of_all_failures
+seed_group == 8,2365,8272,28.6
+feature_flag_7 == True,4058,8272,49.1
+host_temperature_c > 65 (overheating),472,8272,5.7
+memory_alloc_mb <= 1024 AND thread_pool_size >= 16,2459,8272,29.7

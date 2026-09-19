@@ -1,0 +1,37 @@
+# Environment / secrets
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Generated data -- regenerate with generate_data.py + preprocessing.py
+# (see README.md for exact run order). Excluded because these are large
+# (~150MB combined) and fully reproducible from the scripts in this repo.
+data/raw/*
+!data/raw/execution_logs.csv
+
+data/processed/*
+!data/processed/features.csv
+
+# Trained models -- regenerate with config_intelligence.py + what_if_analysis.py.
+# Excluded for the same reason (large, reproducible, and shouldn't be tracked
+# as source-controlled binary blobs).
+backend/models/*
+!backend/models/rf_model.joblib
+!backend/models/throughput_model.joblib
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

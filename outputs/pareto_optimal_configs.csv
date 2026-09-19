@@ -1,0 +1,3 @@
+cache_policy,scheduler,feature_flag_7,n,avg_execution_time_ms,avg_throughput,avg_accuracy,avg_resource_consumption_pct,avg_reliability_score,failure_rate,quality_score,low_confidence
+Adaptive,Dynamic,False,3776,374.0,1583.1,0.9324,61.3,90.8,9.19,0.5677,False
+Adaptive,Dynamic,True,2069,373.6,1765.8,0.9118,61.0,80.9,19.77,0.6842,False

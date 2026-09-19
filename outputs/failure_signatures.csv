@@ -1,0 +1,4 @@
+cluster,failed_runs,pct_of_all_failures,error_count_avg,error_count_vs_baseline_multiplier,warning_count_avg,warning_count_vs_baseline_multiplier,timeout_occurred_avg,timeout_occurred_vs_baseline_multiplier,memory_error_occurred_avg,memory_error_occurred_vs_baseline_multiplier,scheduler_error_occurred_avg,scheduler_error_occurred_vs_baseline_multiplier,retry_attempts_logged_avg,retry_attempts_logged_vs_baseline_multiplier
+0,1757,21.2,2.727,4.03,2.976,1.66,0.125,2.8,0.022,0.52,0.203,4.53,3.306,3.09
+1,4287,51.8,2.721,4.02,3.141,1.75,0.122,2.75,0.233,5.49,0.204,4.55,3.3,3.09
+2,2228,26.9,2.906,4.3,3.08,1.72,0.132,2.96,0.149,3.52,0.156,3.48,3.268,3.06

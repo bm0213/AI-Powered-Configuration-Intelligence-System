@@ -1,0 +1,4 @@
+cluster,failed_runs_in_cluster,conditions,matching_runs_total,matching_failure_rate
+0,1757,memory_alloc_mb is high (avg 7212.9 vs dataset avg 3186.0); memory_pressure_pct is low (avg 43.3 vs dataset avg 55.8); feature_flag_7 = True (54% of cluster vs 35% overall),4328,0.1918
+1,4287,memory_alloc_mb is low (avg 1422.3 vs dataset avg 3186.0); feature_flag_7 = True (51% of cluster vs 35% overall),7691,0.2477
+2,2228,host_temperature_c is high (avg 59.5 vs dataset avg 46.5); voltage_v is high (avg 12.5 vs dataset avg 12.0); memory_alloc_mb is low (avg 2004.3 vs dataset avg 3186.0),6289,0.2584
